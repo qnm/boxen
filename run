@@ -1,0 +1,3 @@
+#!/bin/zsh
+bundle exec librarian-puppet install
+sudo -u root -H env PATH=$PATH bundle exec puppet apply --show_diff --verbose --modulepath=./modules ./manifests/site.pp

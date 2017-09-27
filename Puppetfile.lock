@@ -1,0 +1,14 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com/
+  specs:
+    brwyatt-flatpak (0.1.1)
+      puppetlabs-apt (< 5.0.0, >= 4.0.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.0.0)
+    puppetlabs-apt (4.1.0)
+      puppetlabs-stdlib (< 5.0.0, >= 4.16.0)
+    puppetlabs-stdlib (4.20.0)
+
+DEPENDENCIES
+  brwyatt-flatpak (>= 0)
+  puppetlabs-apt (>= 0)
+
